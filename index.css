@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Karla:wght@400;700&family=Montserrat:wght@500;700&family=Outfit:wght@300;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-main-color: hsl(204, 43%, 93%);
+  --ff-subtitle: hsl(71, 73%, 54%);
+  --ff-primary: "Karla", sans-serif;
+  --ff-secondary: hsl(218, 22%, 67%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f0f0f0;
+  height: 100vh;
+}
+.container-information {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  height: auto;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.container-information h2 {
+  justify-content: space-between;
+  color: var(--ff-subtitle);
+  flex-direction: column;
+  display: flex;
+  font-family: var(--ff-primary);
+}
+.container-information p {
+  color: var(--ff-secondary);
+}
+.container-primary {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 30px;
+  gap: 14px;
+}
+.container-primary h1 {
+  text-align: left;
+  color: hsl(179, 62%, 43%);
+  font-family: var(--ff-primary);
+  font-size: 22px;
+}
+.container-primary h2 {
+  text-align: left;
+  font-size: 16px;
+  font-family: var(--ff-primary);
+}
+.container-primary p {
+  text-align: left;
+  line-height: 25px;
+}
+.container-secondary {
+  display: flex;
+}
+
+.container-right {
+  background-color: hsl(179deg 47% 52%);
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 40px;
+  gap: 10px;
+  color: var(--bg-main-color);
+  text-align: left;
+}
+.container-right h2 {
+  font-size: 22px;
+  color: var(--bg-main-color);
+}
+.container-right h6 {
+  display: flex;
+  font-size: 13px;
+  font-family: var(--ff-primary);
+  color: #8fdcde;
+  line-height: 20px;
+  width: 210px;
+  flex-direction: column;
+}
+.container-left {
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(179, 62%, 43%);
+  width: 50%;
+  padding: 30px;
+  gap: 15px;
+}
+.container-left h1 {
+  text-align: left;
+  font-family: var(--ff-primary);
+  font-size: 18px;
+  color: #f0f0f0;
+}
+.container-left h2 {
+  font-family: var(--ff-primary);
+  color: #f0f0f0;
+}
+.container-left .money p {
+  flex-direction: row;
+  color: #60ccce;
+}
+.container-left .money {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container-left h4 {
+  color: #99e2e1;
+  font-family: var(--ff-primary);
+}
+button {
+  font-family: var(--ff-primary);
+  background-color: var(--ff-subtitle);
+  height: 40px;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 17px -8px #000000;
+}
